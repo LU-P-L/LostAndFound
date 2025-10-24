@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <!-- 状态栏颜色 -->
+        <item name="android:statusBarColor">@color/gray_light</item>
+        <!-- 状态栏图标颜色（亮色/暗色） -->
+        <item name="android:windowLightStatusBar">true</item>
+
+        <item name="chipStyle">@style/Widget.MaterialComponents.Chip.Choice</item>
+    </style>
+
+    <!-- 无ActionBar主题（用于自定义Toolbar的页面） -->
+    <style name="AppTheme.NoActionBar" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <!-- 状态栏颜色 -->
+        <item name="android:statusBarColor">@color/gray_light</item>
+
+        <!-- 状态栏图标颜色（亮色/暗色） -->
+        <item name="android:windowLightStatusBar">true</item>
+    </style>
+
+    <style name="Theme.LostAndFound.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <!-- 状态栏颜色 -->
+        <item name="android:statusBarColor">@color/gray_light</item>
+        <!-- 状态栏图标颜色（亮色/暗色） -->
+        <item name="android:windowLightStatusBar">true</item>
+    </style>
+
+    <style name="FilterDialogTheme" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+</resources>
