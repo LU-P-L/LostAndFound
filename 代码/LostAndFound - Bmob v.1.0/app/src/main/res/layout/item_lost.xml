@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    app:cardCornerRadius="8dp"
+    app:cardElevation="4dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="8dp">
+
+        <!-- 左侧图片区域 -->
+        <ImageView
+            android:id="@+id/ivItemImage"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/logo"
+            android:contentDescription="物品图片"
+            android:layout_marginEnd="12dp"/>
+
+        <!-- 右侧信息区域 -->
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_vertical">
+
+                <TextView
+                    android:id="@+id/tvItemName"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="物品名称"
+                    android:textColor="@color/black"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:id="@+id/ivUrgency"
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:layout_marginStart="8dp"
+                    android:src="@drawable/ic_urgent_star"
+                    android:scaleType="fitCenter"
+                    android:contentDescription="紧急状态"
+                    android:visibility="gone"/>
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/tvCategory"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="物品类别"
+                android:textColor="#808080" />
+
+            <TextView
+                android:id="@+id/tvLostTime"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="丢失时间: 2025.5.8 20:07"
+                android:textColor="#808080" />
+
+            <TextView
+                android:id="@+id/tvLostLocation"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:text="丢失地点: xxx栋xx楼"
+                android:textColor="#808080" />
+
+            <TextView
+                android:id="@+id/tvOwner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:text="失主: LPL"
+                android:textColor="#808080" />
+
+            <TextView
+                android:id="@+id/tvContact"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:text="联系方式: 13800138000"
+                android:textColor="#808080"/>
+        </LinearLayout>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

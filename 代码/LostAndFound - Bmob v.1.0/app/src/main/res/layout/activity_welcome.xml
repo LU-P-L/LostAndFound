@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="36dp"
+    android:paddingRight="36dp"
+    android:gravity="top"
+    android:paddingTop="80dp"
+    android:background="@drawable/welcome_background">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="36dp"
+        android:text="欢迎使用My App！"
+        android:textSize="24sp"
+        android:textColor="@color/black"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:text="这是一个校园购物招领App，旨在为在校学生提供一个便捷的购物招领平台。您可以通过该App发布购物信息、寻找选购物品，快速连接购物主与控制物品的同学等等。"
+        android:textSize="16sp"
+        android:lineSpacingExtra="5dp"
+        android:lineSpacingMultiplier="1.1"/>
+
+    <Button
+        android:id="@+id/btn_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="12dp"
+        android:allowUndo="false"
+        android:backgroundTint="#3775F0"
+        android:textColor="@color/white"
+        android:text="登录"
+        android:textStyle="bold"/>
+
+</LinearLayout>

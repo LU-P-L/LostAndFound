@@ -1,0 +1,11 @@
+<resources>
+    <string-array name="item_categories">
+        <item>全部类别</item>
+        <item>电子设备</item>
+        <item>钱包/卡包</item>
+        <item>钥匙</item>
+        <item>书籍</item>
+        <item>衣物</item>
+        <item>其他</item>
+    </string-array>
+</resources>

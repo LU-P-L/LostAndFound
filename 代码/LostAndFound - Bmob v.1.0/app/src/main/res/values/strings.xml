@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">LostAndFound</string>
+    <string name="about_us_content">LostAndFound 是一个专注于失物招领服务的平台。我们致力于帮助用户快速找回丢失的物品，搭建失主与拾获者之间的桥梁。\n\n我们的使命：\n通过技术创新，提高失物找回率\n创建互帮互助的社区环境\n提供便捷高效的失物管理服务\n\n自2025年成立以来，我们已经成功帮助数万名用户找回失物。感谢您选择使用我们的服务！</string>
+    <string name="select_category">选择物品类别</string>
+</resources>
